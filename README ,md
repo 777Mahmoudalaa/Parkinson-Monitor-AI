@@ -20,5 +20,6 @@ This project addresses motor blocks in advanced Parkinson's disease by utilizing
 2. Install dependencies: `python -m pip install numpy scipy`.
 3. Run the monitor: `python main.py`.
 
+
 ---
 *Developed by Mahmoud*
