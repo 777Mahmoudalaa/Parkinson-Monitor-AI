@@ -1,0 +1,24 @@
+# AI Parkinson's Ankle Monitor 🧠👣
+
+An intelligent, wearable bio-telemetry platform designed to detect **Freezing of Gait (FoG)** in Parkinson's disease patients and provide real-time closed-loop corrective bio-feedback.
+
+## 💡 Project Overview
+This project addresses motor blocks in advanced Parkinson's disease by utilizing a high-precision IMU sensor. The system analyzes raw acceleration and orientation data to identify gait abnormalities instantly and triggers sensory cues to bypass neurological gait blocks.
+
+## 🛠 Technical Stack
+* **Core Logic:** Python (Tkinter for real-time diagnostics).
+* **Web Interface:** Custom HTML5/CSS3 Dashboard with live telemetry visualization.
+* **Signal Processing:** FFT analysis & Kalman filtering for data stability.
+
+## 🚀 Key Features
+* **Real-time Monitoring:** Tracks tremor frequency (Hz) and ankle orientation (Pitch/Roll).
+* **Clinical Diagnosis:** Automated detection of FoG and Fall Risk states.
+* **Active Bio-Feedback:** Visual laser cueing and haptic vibration for gait rehabilitation.
+
+## ⚙️ Installation & Usage
+1. Clone the repository.
+2. Install dependencies: `python -m pip install numpy scipy`.
+3. Run the monitor: `python main.py`.
+
+---
+*Developed by Mahmoud*
